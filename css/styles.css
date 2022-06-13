@@ -1,0 +1,30 @@
+#wrapper{
+    display: inline-block;
+    vertical-align: middle;
+    align-content: center;
+    /* margin-left: 25%; */
+}
+
+#head {
+    margin-left: 30%;
+    font-size: 105px;
+    opacity: 0.8;
+    text-decoration: underline;
+    text-decoration-thickness: 2px;
+    text-underline-offset: -5%;
+    text-decoration-style: dotted;
+}
+
+
+@font-face {
+    font-family: 'SF Pro Display';
+    src: url('./sf_pro_display.OTF');
+    
+}
+
+circle {
+    transition: opacity 1s ease-in;
+}
+
+/* @import url('https://www.cufonfonts.com/download/font-family/bc1da415871f191256e96579dcd075f7/sf-pro-display'); */
+
