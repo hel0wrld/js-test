@@ -28,7 +28,6 @@ var mouseleave = function (data) {
 
 var mousemove = function (data) {
     tip.html('x = '+ Math.trunc(d3.pointer(data)[0])+'px<br>y = '+Math.trunc(d3.pointer(data)[1])+'px')
-    console.log(typeof d3.pointer(data)[0])
     tip.style('left', d3.pointer(data)[0]+'px')
     tip.style('top', d3.pointer(data)[1]+'px')
     circle.attr('opacity', 0.5)
